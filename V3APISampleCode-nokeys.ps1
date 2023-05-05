@@ -268,7 +268,7 @@ Function Send-Email-ToUserGroup {
          -Subject $subject `
          -Body $body `
          -Priority High `
-         -DeliveryNotificationOption OnSuccess, OnFailure -SmtpServer 'smtp.extendthereach.com' 
+         -DeliveryNotificationOption OnSuccess, OnFailure -SmtpServer 'smtp.domainname.com' 
 
 }
 
