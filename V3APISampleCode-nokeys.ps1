@@ -1,4 +1,13 @@
-﻿
+
+##
+## This module can sync an active directory user group to Alteryx Server user group. The APIs to do this are public and no keys are given here. You have to supply them for this to work
+## You also have to give the right name of the AD group and the Server user group that you care about.
+## I've already shared this code with the SA team. I left the company, so I can't maintain it, so this is my own fork of it that has no IP except sample code to help boost Alteryx Server sales
+## Incidentally there is a new way to sync these groups using SCIM, released sometime in 2023.
+## So this code is only good for showing how to access AD groups and how to get a bearer token with an API key and secret in OAuth2 using simple Auth
+##
+
+
 Import-Module ActiveDirectory
 
 
